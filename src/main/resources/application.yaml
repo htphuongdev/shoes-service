@@ -3,3 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/shoes_store
     username: root
     password: 200100
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
